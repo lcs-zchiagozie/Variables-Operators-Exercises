@@ -35,7 +35,10 @@
  
  */
 // Answer Question 1 below
-
+let studentName = "Naruto"
+let studentLastName = "Uzumaki"
+var currentGrade = 60
+let novemberReportCard = 80
 /*:
  ### Question 2
  
@@ -47,15 +50,16 @@
  
  */
 // Answer Question 2 below
-
-
+let myAge = 16
+let otherAge = 40.0
+let averageAge = (Double(myAge) + otherAge) / 2 // numeric type conversion from Int to Double i.e.: Double(myAge)
 /*:
  ### Question 3
  
  Create a variable that will track a person's favourite hobby. Select whatever name you feel is appropriate, but use the camel case convention when you name this constant.
  */
 // Answer Question 3 below
-
+var favouriteHobbyBasketball = 100
 
 /*:
  ### Question 4
@@ -65,8 +69,8 @@
  Use multiple `print` statements below to answer this question.
  */
 // Answer Question 4 below
-
-
+print(" Due to the fact that constants are immutable, they can not be changed")
+print("This prevents a user from mistakingly changing its value and disrupting his code")
 /*:
  ### Question 5
  
